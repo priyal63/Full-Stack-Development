@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Pizza Shop
+        </title>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Customer Detail</legend>
+                <table>
+                    <tr>
+                        <td><label for="a1"><b>Name:</b></label></td>
+                        <td><input type="text" id="a1" placeholder="Enter your Name" autofocus></td>
+                    </tr>
+                    <tr>
+                        <td><label for="a2"><b>Mobile Number:</b></label></td>
+                        <td><input type="tel" id="a2" placeholder="Enter your Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="a3"><b>Adress</b>:</label></td>
+                        <td><textarea name="adress" placeholder="Enter your Adress"></textarea></td>
+                    </tr>
+                    <br>
+                    
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Pizza Topping Detail</legend>
+                <table>
+                        <tr>
+                            <th rowspan="3">Pizza Type:</th>
+                            <td><input type="checkbox" name="Supreme" value="meal">Supreme</td>
+                            <td>Qt.<input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Vegetarian" value="meal">Vegetarian</td>
+                            <td>Qt.<input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Farmville" value="meal">Farmville</td>
+                            <td>Qt.<input type="text"></td>
+                        </tr>
+                </table>
+                    
+                <table>
+                    <tr>
+                        <th>Pizza Size:</th>
+                        <td>
+                            <input type="radio" value="size" name="Small"> Small
+                            <input type="radio" value="size" name="Medium">Medium
+                            <input type="radio" value="size" name="Large">Large</td>
+                    </tr>
+                    
+                    <tr>
+                        <th>Pizza Sauce:</th>
+                        <th>
+                            <select name="sauce">
+                        <option value="select" selected disabled>--Sauce Type--</option>
+                        <option value="tomato">Tomato</option>
+                        <option value="chilly">chilly</option>
+                        <option value="BBQ">BBQ</option>
+                    </select>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="2">Extra Topping</th>
+                        <td><input type="checkbox" value="toppings" name="Chees">Cheese</td>
+                        <td><input type="checkbox" value="toppings" name="extra veg.">Extra veg.</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" value="toppings" name="Roasted Broccoli">Roasted Broccoli</td>
+                        <td><input type="checkbox" value="toppings" name="Black olives">Black olives</td>
+                    </tr>
+                </table>
+
+                <h5>Delivery Instruction</h5>
+                <textarea name="text" ></textarea>
+
+                <br>
+                <input type="submit" value="Send my order">
+            </fieldset>
+        </form>
+    </body>
+</html>
